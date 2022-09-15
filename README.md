@@ -1,3 +1,6 @@
-# Topic Model
-I want to get a topic for each document data. Preprocessing the data, unnecessary words are cut off. Based on keywords, created topics and found the optimal number of topics. Each keywords from a document has a score for the topics. 
-- Visualized graph that shows topic by the number of the document data.
+# Topic Model with LDA + BERT
+Topic modeling is a optimizing technique to specify clustered words to some topics. It is based on frequency term metrix problem. If some words frequently appear to some different documents, it means those documents can have the same topic.
+- LDA simply assume that documents are mixture of topics, and some words have probability of occurring in some topics more than others. So LDA gives a probability vector for each document belonging to a topic.
+- BERT is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers. As a result, the pre-trained BERT model can be fine-tuned with just one additional output layer to create state-of-the-art models for a wide range of tasks, such as question answering and language inference, without substantial task-specific architecture modifications.
+
+I want to get a topic for each document data. Preprocessing the data, unnecessary words are cut off. Based on keywords, created topics and found the optimal number of topics. Each keywords from a document has a score for the topics. Visualized graph that shows topic by the number of the document data.
